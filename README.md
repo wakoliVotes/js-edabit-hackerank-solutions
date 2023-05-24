@@ -1,2 +1,1 @@
-# js-edabit-solutions
-JavaScript Edabit Challenges Solutions
+##JavaScript Edabit Hackeranl Challenges Solutions
