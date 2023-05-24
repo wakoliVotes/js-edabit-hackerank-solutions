@@ -1,1 +1,1 @@
-##JavaScript Edabit Hackeranl Challenges Solutions
+## JavaScript Edabit Hackerank Challenges Solutions
