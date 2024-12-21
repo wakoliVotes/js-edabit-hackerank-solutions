@@ -1,4 +1,6 @@
-// Question: What will be logged to the console and why? Explain each step.
+// Scopes
+// Question: Consider the function below
+// What will be logged to the console and why? Explain each step.
 
 var x = 10;
 
@@ -17,7 +19,7 @@ function outerFunction () {
     console.log(z);    // 5.?
 }
 
-// outerFunction();
+outerFunction();
 
 
 /*
@@ -49,14 +51,3 @@ z is block-scoped (declared using const). It is not accessible outside the if bl
 Output: ReferenceError: z is not defined.
 
 */
-
-function addNumbers(a, b) {
-    return a + b;
-}
-
-// Prompt user for inputs
-let num1 = parseInt(prompt("Enter the first number:"));
-let num2 = parseInt(prompt("Enter the second number:"));
-
-// Call the function with user inputs
-console.log(addNumbers(num1, num2));
