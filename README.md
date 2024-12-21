@@ -1,7 +1,7 @@
 ## JavaScript Edabit Hackerank Challenges Solutions
 
 <!-- add two images here side by side -->
-<img src="img/edabit.png" width="48%" height="200"> <img src="img/hackerank.png" width="48%" height="200">
+<img src="images/edabit.png" width="48%" height="200"> <img src="images/hackerank.png" width="48%" height="200">
 
 
 
