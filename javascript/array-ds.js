@@ -6,3 +6,9 @@ An array is a type of data structure that stores elements of the same type in a 
 */
 
 
+
+// See on Hackerank at https://www.hackerrank.com/challenges/solve-me-first/problem
+
+
+
+
