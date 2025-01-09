@@ -22,3 +22,9 @@ Constraints
 1 ≤ a, b ≤ 1000
 
  */
+
+
+
+function readLine() {
+    return input
+}
