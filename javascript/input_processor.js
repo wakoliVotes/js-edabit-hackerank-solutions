@@ -21,7 +21,7 @@ const input_stdn_array = input_stdn.split("\n");
 let input_currentLine = 0;
 
 function readLine() {
-    return input_stdn_array[input_currentLine];
+    return input_stdn_array[input_currentLine++];
 }
 
 main();
@@ -30,6 +30,6 @@ main();
 function main() {
     const n = parseInt(readLine().trim());   /// Read the first line as an integer
     for (let i = 0; i < n; i++) {
-        console.log(readLine().trim());     /// Read and print each subsequent line        
+        console.log(readLine());     /// Read and print each subsequent line        
     }
 }
