@@ -2,8 +2,6 @@
 
 /*
 
-**Introduction to Standard Input Processor in Node.js**  
-
 This code serves as a foundational template for handling standard input (stdin) in Node.js applications.
 It efficiently reads input data from the command line, processes it line by line, and prepares it for further logic implementation. 
 Commonly used in competitive programming and interactive programs, this setup includes event listeners to collect input, 
@@ -30,6 +28,6 @@ main();
 function main() {
     const n = parseInt(readLine().trim());   /// Read the first line as an integer
     for (let i = 0; i < n; i++) {
-        console.log(readLine());     /// Read and print each subsequent line        
+        console.log(readLine());     /// Read and print each subsequent line
     }
 }
