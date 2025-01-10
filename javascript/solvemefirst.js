@@ -23,8 +23,13 @@ Constraints
 
  */
 
+// Original question here: https://www.hackerrank.com/challenges/solve-me-first/problem
 
 
-function readLine() {
-    return input
+function solveMeFirst(a, b) {
+    return a + b;   
 }
+
+var result = solveMeFirst(2, 5);
+
+console.log(`The result is: ${result}`);

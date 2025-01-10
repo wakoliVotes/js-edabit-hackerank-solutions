@@ -12,6 +12,7 @@ Its modular design makes it versatile for a wide range of applications.
 */
 
 
+
 const fs = require('fs');
 const input_stdn = fs.readFileSync('input.txt', 'ascii');
 
