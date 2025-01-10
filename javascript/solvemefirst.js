@@ -29,7 +29,5 @@ Constraints
 function solveMeFirst(a, b) {
     return a + b;   
 }
-
 var result = solveMeFirst(2, 5);
-
 console.log(`The result is: ${result}`);
