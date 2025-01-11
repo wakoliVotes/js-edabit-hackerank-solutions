@@ -30,12 +30,17 @@ function diagonalDifference(arr) {
     // }
     // Pick items from left to right
     for (let i = 0; arr.length; i++) {
-        leftToRights = [(arr[0][0]), (arr[1][1]), (arr[2][2])];        
-    }
-    // Pick items from right to left diagonally
-    for (let j = 0; arr.length; j--) {
+        let sumRight =0;
+        let sumLeft = 0;
+        leftToRights = [(arr[0][0]), (arr[1][1]), (arr[2][2])];
+        sumLeft =leftToRights[i];
         rightToLefts = [(arr[0][2]), (arr[1][1]), (arr[2][0])];
+        sumRight = rightToLefts[i];
+
+        return (sumLeft+sumRight);
     }
-    return arr;
+    
 }
-console.log (diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8,-12]]));
+console.log (diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8,-12]]));  // 15
+
+// TODO - Check due to failed test cases
