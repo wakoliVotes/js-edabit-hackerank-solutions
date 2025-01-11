@@ -34,4 +34,4 @@ function aVeryBigSum(ar) {
 }
 console.log(aVeryBigSum([11111234, 455555555555555, 5555555555555, 6666666]))   // 461111128889010
 
-// !TODO - Recheck
+// !Checked as right
