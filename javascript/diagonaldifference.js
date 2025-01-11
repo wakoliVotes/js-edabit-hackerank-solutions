@@ -31,16 +31,11 @@ function diagonalDifference(arr) {
     // Pick items from left to right
     for (let i = 0; arr.length; i++) {
         leftToRights = [(arr[0][0]), (arr[1][1]), (arr[2][2])];        
-        let sumLefts = 0;
-        sumLefts += leftToRights;
     }
     // Pick items from right to left diagonally
     for (let j = 0; arr.length; j--) {
         rightToLefts = [(arr[0][2]), (arr[1][1]), (arr[2][0])];
-        let sumRight = 0;
-        sumRight += rightToLefts;
     }
-    return (sumLefts + sumRight);
-
+    return arr;
 }
 console.log (diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8,-12]]));
