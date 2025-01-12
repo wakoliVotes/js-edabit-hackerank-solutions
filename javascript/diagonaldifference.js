@@ -41,23 +41,33 @@ function diagonalDifference(arr) {
     }
     
 }
-console.log (diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8,-12]]));  // 15
+// console.log (diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8,-12]]));  // 15
 
 // TODO - Check due to failed test cases
+// Issues
+/*
+
+1. Implimentation is non-dynamic, only works for predefined 3*3 matrix
+2. Adjust to allow working on any matrix, beyond only 3*3
+3. Missing absolute case for results
+
+*/ 
 
 
-function FindDiagonalDifference (arraItems) {
-    const n = arraItems.length;                    // Number of rwos and columns in teh square matrix
+
+// Corrected function
+function FindDiagonalDifference (arrayItems) {
     // Calculate sum of left to right diagonals
     let fromRight = 0;
     let fromLeft = 0;
-    for (let j=0; arraItems.length; j++) {
-        fromLeft += arraItems[j][j];
-        fromRight += arraItems[j][arraItems.length - j - 1];
+    for (let j=0; j < arrayItems.length; j++) {
+        fromLeft += arrayItems[j][j];
+        // We need to pick items from the right to left
+        fromRight += arrayItems[j][arrayItems.length - j - 1];
     }
 
     return Math.abs(fromLeft - fromRight);
 
 }
 
-console.log(FindDiagonalDifference([[12, 23, 56, [45, 56, 76], [64, 76, 27]]]));
+console.log(FindDiagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8,-12]]));
