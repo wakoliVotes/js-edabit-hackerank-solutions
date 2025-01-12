@@ -44,3 +44,20 @@ function diagonalDifference(arr) {
 console.log (diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8,-12]]));  // 15
 
 // TODO - Check due to failed test cases
+
+
+function FindDiagonalDifference (arraItems) {
+    const n = arraItems.length;                    // Number of rwos and columns in teh square matrix
+    // Calculate sum of left to right diagonals
+    let fromRight = 0;
+    let fromLeft = 0;
+    for (let j=0; arraItems.length; j++) {
+        fromLeft += arraItems[j][j];
+        fromRight += arraItems[j][arraItems.length - j - 1];
+    }
+
+    return Math.abs(fromLeft - fromRight);
+
+}
+
+console.log(FindDiagonalDifference([[12, 23, 56, [45, 56, 76], [64, 76, 27]]]));
