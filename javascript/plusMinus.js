@@ -41,7 +41,7 @@ function plusMinus(arr) {
             console.log(arr[i], ' > 0');
         }
         else if (arr[i]<0) {
-            console.log(arr[i], ' < 0');
+            console.log(arr[i], '< 0');
         }
         else{
             console.log(arr[i], ' = 0');
@@ -53,3 +53,4 @@ function plusMinus(arr) {
 console.log(plusMinus([-4, 3, -9, 0, 4, 1]));
 
 // Expected Output
+
