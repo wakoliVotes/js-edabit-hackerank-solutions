@@ -38,15 +38,18 @@ function plusMinus(arr) {
     // TRY - Checking positive, negative and zero elements in the array
     for (let i = 0; i < arr.length; i++) {
         if (arr[i]>0) {
-            console.log('This is greater than zero', arr[i]);
+            console.log(arr[i], ' > 0');
         }
         else if (arr[i]<0) {
-            console.log('This is less than zero', arr[i]);
+            console.log(arr[i], ' < 0');
         }
         else{
-            console.log('This is equal to zero', arr[i]);
+            console.log(arr[i], ' = 0');
         };
     }
 
 }
+// Check and Test
 console.log(plusMinus([-4, 3, -9, 0, 4, 1]));
+
+// Expected Output
