@@ -36,21 +36,48 @@ Constraints
 
 function plusMinus(arr) {
     // TRY - Checking positive, negative and zero elements in the array
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i]>0) {
-            console.log(arr[i], ' > 0');
+    // for (let i = 0; i < arr.length; i++) {
+    //     if (arr[i]>0) {
+    //         console.log(arr[i], ' > 0');
+    //     }
+    //     else if (arr[i]<0) {
+    //         console.log(arr[i], '< 0');
+    //     }
+    //     else{
+    //         console.log(arr[i], ' = 0');
+    //     };
+    // }
+
+    // TRY - Calculating the ratios of positive, negative and zero values in the array
+    let positive = 0;
+    let negative = 0;
+    let zeros = 0;
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[j] > 0) {
+            console.log(positive += arr.length);
         }
-        else if (arr[i]<0) {
-            console.log(arr[i], '< 0');
+        else if (arr[j] < 0) {
+            console.log(negative += arr.length);
         }
-        else{
-            console.log(arr[i], ' = 0');
-        };
+        else {
+            console.log(zeros += arr.length);
+        }
     }
+
+
 
 }
 // Check and Test
 console.log(plusMinus([-4, 3, -9, 0, 4, 1]));
 
 // Expected Output
+/*
+-4 < 0
+3  > 0
+-9 < 0
+0  = 0
+4  > 0
+1  > 0
+*/
+
 
