@@ -53,18 +53,18 @@ function plusMinus(arr) {
     let negative = 0;
     let zeros = 0;
     for (let j = 0; j < arr.length; j++) {
-        if (arr[j] > 0) {
-            console.log(positive += arr.length);
-        }
-        else if (arr[j] < 0) {
-            console.log(negative += arr.length);
-        }
-        else {
-            console.log(zeros += arr.length);
-        }
+        positive = arr.filter (a => a > 0);
+        negative = arr.filter (a => a < 0);
+        zeros = arr.filter (a => a = 0);
+        // else if (arr[j] < 0) {
+        //     return arr.reduce((a, b) => a +b);
+        // }
+        // else {
+        //     return arr.reduce((a, b) => a +b);
+        // }
     }
-
-
+    // !Testing - Return the sum of positive values
+    return positive.reduce((a, b) => a + b); // 8 = 3 + 4 + 1
 
 }
 // Check and Test

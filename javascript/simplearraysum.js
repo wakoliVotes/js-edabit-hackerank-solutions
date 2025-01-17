@@ -31,10 +31,11 @@ Sample Input
 1 2 3 4 10 11
 
 */
+'use strict';
 
 function simpleArraySum(ar) {
     return ar.reduce((a, b) => a + b, 0);
-    // reduct() method reduces the array to a single value.
+    // reduce() method reduces the array to a single value.
     // Iteration: For each element in the array, 
     // the callback function (a, b) => a + b adds the current element 
     // to the accumulator.
