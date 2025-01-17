@@ -63,7 +63,7 @@ function plusMinus(arr) {
         //     return arr.reduce((a, b) => a +b);
         // }
     }
-    // !Testing - Return the sum of positive values
+    // ?Testing - Return the sum of positive values
     return positive.reduce((a, b) => a + b); // 8 = 3 + 4 + 1
 
 }
