@@ -25,6 +25,10 @@ Constraints
 
 // Original question here: https://www.hackerrank.com/challenges/solve-me-first/problem
 
-fun solveMeFirst (arr) {
+fun solveMeFirst (a, b) {
+    return a +b;
+}
 
+fun main() {
+    println(solveMeFirst(12, 23))    
 }
