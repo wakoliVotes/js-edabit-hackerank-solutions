@@ -40,7 +40,6 @@ fun simpleArraySum(numbers: Array<Int>: Int){
     return sum
 }
 
-
 // Test Runs
 fun main() {
     val numbers = arrayOf(1, 2, 3, 4, 5)
