@@ -34,11 +34,10 @@ Sample Input
 
 fun simpleArraySum(numbers: Array<Int>: Int){
     var sum;
-    for(number in arr){
-
-        
+    for(number in numbers){
+        sum += number        
     }
-
+    return sum;
 }
 
 fun main(){
