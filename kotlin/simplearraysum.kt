@@ -33,13 +33,16 @@ Sample Input
 */
 
 fun simpleArraySum(numbers: Array<Int>: Int){
-    var sum;
+    var sum
     for(number in numbers){
         sum += number        
     }
-    return sum;
+    return sum
 }
 
-fun main(){
-    println("The answer is", + simpleArraySum([12, 23, 4, 45, 78, 23]))
+
+// Test Runs
+fun main() {
+    val numbers = arrayOf(1, 2, 3, 4, 5)
+    println("Sum of array: ${sumArray(numbers)}")
 }
