@@ -33,6 +33,7 @@ Sample Input
 */
 
 fun simpleArraySum(numbers: Array<Int>: Int){
+    var sum;
     for(number in arr){
 
         
