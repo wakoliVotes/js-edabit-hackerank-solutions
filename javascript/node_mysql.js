@@ -52,9 +52,9 @@ const tableName = 'employees';
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'your_password',
-   //  ! Make sure to replace 'your_password' with your actual MySQL password
-    database: 'your_database'
+    password: 'password',
+   //  ! Make sure to replace 'password' with your actual MySQL password
+    database: 'database'
 });
 connection.connect((err) => {
     if (err) {
