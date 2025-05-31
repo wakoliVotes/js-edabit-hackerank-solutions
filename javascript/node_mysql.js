@@ -47,14 +47,13 @@ Complete the Node.js script to achieve the desired operations and output.
 */
 
 // Solution
-const mysql = require('mysql');
+const mysql = require('mysql'); //? Make sure to install the mysql package using npm install mysql
 const tableName = 'employees';
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'password',
-   //  ! Make sure to replace 'password' with your actual MySQL password
-    database: 'database'
+    password: 'honda', //! Make sure to replace 'password' with your actual MySQL password
+    database: 'database' //! Replace 'databse' with your actual database name
 });
 connection.connect((err) => {
     if (err) {
