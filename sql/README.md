@@ -18,7 +18,7 @@ You will get a database diagram, interpret it, and implement the SQL needed to b
 
 ### Project requirements
 - Take a look at the following database diagram for a clinic:
-     -   <img src="./images/clinic_diagram.png" alt="Clinic diagram" width="1000px" />
+     -   <img src="images/clinic_diagram_sql.jpeg" alt="Clinic diagram" width="1000px" />
 - Create a new repo for this project.
 - Create a file named `schema_based_on_diagram.sql` where you implement the database from the diagram.
 - Join tables from many-to-many relationships might not appear in the diagram, but you still need them.
